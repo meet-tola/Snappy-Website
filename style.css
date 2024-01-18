@@ -3754,6 +3754,21 @@ HOME TWO CONTACT
 /* =======================
     ABOUT US BANNER
 ==========================*/
+.logo-banner{
+    background: url('assets/images/snappy.jpg') no-repeat center center;
+    background-size: contain;
+    height: 450px;
+    position: relative;
+}
+
+.logo-banner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 .about-us-banner{
     background: url('assets/images/about-us-banner.jpg') no-repeat center center;
     background-size: cover;
